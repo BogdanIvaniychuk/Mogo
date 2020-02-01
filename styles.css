@@ -20,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
 /*Conteiner*/
 .conteiner {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1230px;
+    padding: 0 15px;
     
     margin: 0 auto;
 
@@ -1014,3 +1015,68 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid #e5e5e5;
     height: 60px;
 } 
+
+@media (max-width: 1230px) {
+    
+    .intro__suptitle {
+        font-size: 52px;
+    }
+    
+    .intro__title {
+        font-size: 120px;
+    }
+} 
+
+@media (max-width: 990px) {
+    
+    .intro__suptitle {
+        font-size: 32px;
+    }
+    
+    .intro__title {
+        font-size: 80px;
+    }
+} 
+
+
+@media (max-width: 320px) {
+
+    .intro__suptitle {
+        font-size: 20px;
+
+    }
+
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .header__logo {
+        font-size: 20px;
+    }
+
+    .nav {
+        font-size: 9px;
+    }
+
+    .nav__link {
+        margin: 0 1px;
+    }
+
+    .btn {
+        font-size: 10px;
+
+    }
+
+    .slider__item {
+        font-size: 15px;
+    }
+
+    .slider__num {
+        font-size: 15px;
+    }
+
+    .slider__item.active:before {
+        width: 20px;
+    }
+
+}
